@@ -6,15 +6,6 @@ body {
     color: #ddd; /* Nowy kolor tekstu */
     overflow: hidden;
 }
-/* Add this at the end of your CSS file */
-@media screen and (max-width: 600px) {
-    .right-card{
-        height: 30%;
-        width: 10%;
-        font-size: 5px;
-        }
-    }
-}
 @keyframes firstt {
     0%{
         background: #000;
