@@ -6,6 +6,18 @@ body {
     color: #ddd; /* Nowy kolor tekstu */
     overflow: hidden;
 }
+/* Add this at the end of your CSS file */
+@media screen and (max-width: 768px) {
+    .left-card, .right-card {
+        width: 80%; /* Adjust width for smaller screens */
+        margin: 4.5% auto; /* Center the cards */
+        float: none; /* Remove floating */
+    }
+
+    .left-card, .right-card:hover {
+        transform: none; /* Remove transform on hover */
+    }
+}
 @keyframes firstt {
     0%{
         background: #000;
