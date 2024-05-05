@@ -142,13 +142,15 @@ body {
     background-color: #fff;
 }
 @media screen and (max-width: 768px) {
-    .card_content{
-        font-size: 35px;
+    body{
+        overflow: visible;
     }
     .left-card, .right-card {
         width: 70%;
         height: 45%;
         margin: 4.5% 15% auto 15%;
-
+    }
+    .card_content{
+        font-size: 35px;
     }
 }
