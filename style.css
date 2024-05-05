@@ -1,10 +1,16 @@
+*{
+    user-select: none;
+}
 body {
     margin: 0;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     animation: firstt 5s;
-    background: #222; /* Nowy kolor tła */
+   /* background: #222; /* Nowy kolor tła */
     color: #ddd; /* Nowy kolor tekstu */
     overflow: hidden;
+    background-image: url(pexels-emily-ranquist-493228-1205651.jpg);
+    background-size: cover;
+    scroll-behavior: smooth;
 }
 @keyframes firstt {
     0%{
@@ -14,14 +20,13 @@ body {
         background: #000;
     }
     100%{
-        background: linear-gradient(to right, #1a1a1a, #111); /* Nowy gradient tła */
+        background-image: url(pexels-emily-ranquist-493228-1205651.jpg); 
     }
 }
 .top {
     width: 100%;
     height: 100px;
-    background: linear-gradient(to right, #1a1a1a, #111);
-    border-bottom: 5px solid rgba(255, 255, 255, 0.349); /* Nowy kolor dolnej krawędzi */
+    background-color: rgba(26, 26, 26, 0.7);
     display: grid;
     place-items: center;
     animation: first 5s;
@@ -57,8 +62,8 @@ body {
 }
 .content {
     width: 100%;
-    height: calc(100vh - 105px);
-    background-color: #333; /* Nowy kolor tła contentu */
+    height: calc(100vh - 100px);
+    /*background-color: #333; /* Nowy kolor tła contentu */
     animation: show 5s;
 }
 @keyframes show {
@@ -90,7 +95,6 @@ body {
     cursor: pointer;
     transition: 1s;
     font-weight: bold;
-    user-select: none;
 }
 .left-card:hover{
     transition: 1s;
@@ -105,8 +109,9 @@ body {
 }
 .left-card:hover .topic {
     width: 50%;
+    background-color: #fff;
 }
-.left_content {
+.card_content {
     margin-top: 5%;
     margin-left: 5%;
     font-size: 30px;
@@ -127,12 +132,23 @@ body {
     cursor: pointer;
     transition: 1s;
     font-weight: bold;
-    user-select: none;
 }
 .right-card:hover{
     transition: 1s;
     transform: scale(1.05) rotate(5deg); /* Poprawka błędu w CSS */
 }
-.right-card:hover .topic {
+.right-card:hover .topic{
     width: 50%;
+    background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .card_content{
+        font-size: 35px;
+    }
+    .left-card, .right-card {
+        width: 70%;
+        height: 45%;
+        margin: 4.5% 15% auto 15%;
+
+    }
 }
