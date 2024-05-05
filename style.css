@@ -142,6 +142,9 @@ body {
     background-color: #fff;
 }
 @media screen and (max-width: 768px) {
+   body{
+      overflow: visible;
+   }
     .top {
         height: 80px;
         background-color: rgba(26, 26, 26, 0.9);
