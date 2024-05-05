@@ -9,9 +9,8 @@ body {
 /* Add this at the end of your CSS file */
 @media screen and (max-width: 1200px) {
     .right-card{
-        height: 30%;
-        width: 10%;
-        font-size: 5px;
+        display: none;
+        }
     }
 }
 @keyframes firstt {
