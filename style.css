@@ -1,25 +1,26 @@
-body{
+body {
     margin: 0;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     animation: firstt 5s;
-    background: none;
+    background: #222; /* Nowy kolor tła */
+    color: #ddd; /* Nowy kolor tekstu */
 }
 @keyframes firstt {
-        0%{
-            background: #000;
-        }
-        80%{
-            background: #000;
-        }
-        100%{
-            background: linear-gradient(to right, #f3f3f3, #fff);
-        }
+    0%{
+        background: #000;
+    }
+    80%{
+        background: #000;
+    }
+    100%{
+        background: linear-gradient(to right, #1a1a1a, #111); /* Nowy gradient tła */
+    }
 }
-.top{
+.top {
     width: 100%;
     height: 100px;
-    background: linear-gradient(to right, #f3f3f3, #fff);
-    border-bottom: 5px solid rgba(0, 0, 0, 0.349);
+    background: linear-gradient(to right, #1a1a1a, #111);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.349); /* Nowy kolor dolnej krawędzi */
     display: grid;
     place-items: center;
     animation: first 5s;
@@ -50,13 +51,13 @@ body{
         background: #000;
     }
 }
-.title-first{
-    color: rgb(0, 0, 160);
+.title-first {
+    color: rgb(0, 180, 255); /* Nowy kolor akcentu */
 }
-.content{
+.content {
     width: 100%;
     height: calc(100vh - 105px);
-    background-color: #eeeeee;
+    background-color: #333; /* Nowy kolor tła contentu */
     animation: show 5s;
 }
 @keyframes show {
@@ -73,18 +74,18 @@ body{
         visibility: visible;
     }
 }
-.left-card{
+.left-card {
     float: left;
     margin-left: 10%;
     margin-top: 4.5%;
     width: 30%;
     height: 80%;
-    background: rgba(41, 225, 94, 0.48);
+    background: rgba(61, 61, 61, 0.8); /* Nowy kolor tła */
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* Nowy kolor cienia */
     backdrop-filter: blur(6.4px);
     -webkit-backdrop-filter: blur(6.4px);
-    border: 1px solid rgba(41, 225, 94, 0.07);
+    border: 1px solid rgba(61, 61, 61, 0.3); /* Nowy kolor obramowania */
     cursor: pointer;
     transition: 1s;
     font-weight: bold;
@@ -92,25 +93,45 @@ body{
 }
 .left-card:hover{
     transition: 1s;
-    scale: 1.05;
-    transform: rotate(7deg);
+    transform: scale(1.05) rotate(5deg); /* Poprawka błędu w CSS */
 }
-.left_content{
+.topic {
+    margin: 5% auto -5% 5%;
+    height: 1%;
+    width: 30%;
+    background-color: rgb(0, 180, 255); /* Nowy kolor kreski */
+    transition: width 0.5s;
+}
+.left-card:hover .topic {
+    width: 50%;
+}
+.left_content {
     margin-top: 5%;
     margin-left: 5%;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
 }
-.right-card{
+.right-card {
     float: right;
     margin-right: 10%;
     margin-top: 4.5%;
     width: 30%;
     height: 80%;
-    background: rgba(41, 225, 94, 0.48);
+    background: rgba(61, 61, 61, 0.8); /* Nowy kolor tła */
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* Nowy kolor cienia */
     backdrop-filter: blur(6.4px);
     -webkit-backdrop-filter: blur(6.4px);
-    border: 1px solid rgba(41, 225, 94, 0.07);
+    border: 1px solid rgba(61, 61, 61, 0.3); /* Nowy kolor obramowania */
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+    user-select: none;
+}
+.right-card:hover{
+    transition: 1s;
+    transform: scale(1.05) rotate(5deg); /* Poprawka błędu w CSS */
+}
+.right-card:hover .topic {
+    width: 50%;
 }
