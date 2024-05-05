@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    animation: firstt 5s;
+    background: none;
+}
+@keyframes firstt {
+        0%{
+            background: #000;
+        }
+        80%{
+            background: #000;
+        }
+        100%{
+            background: linear-gradient(to right, #f3f3f3, #fff);
+        }
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #f3f3f3, #fff);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.349);
+    display: grid;
+    place-items: center;
+    animation: first 5s;
+    font-size: 40px;
+}
+@keyframes first {
+    0%{
+        margin-top: calc(100vh);
+        border-bottom: none;
+        color: #000;
+        background: #000;
+    }
+    10%{
+        margin-top: calc(100vh/2 - 50px);
+        font-size: 60px;
+    }
+    49%{
+        color: #000;
+    }
+    50%{
+        color: #fff;
+    }
+    80%{
+        margin-top: calc(100vh/2 - 50px);
+        border-bottom: none;
+        font-size: 60px;
+        color: #fff;
+        background: #000;
+    }
+}
+.title-first{
+    color: rgb(0, 0, 160);
+}
+.content{
+    width: 100%;
+    height: calc(100vh - 105px);
+    background-color: #eeeeee;
+    animation: show 5s;
+}
+@keyframes show {
+    0%{
+        margin-top: calc(-100vh);
+        visibility: hidden;
+    }
+    81%{
+        margin-top: calc(-100vh);
+        visibility: hidden;
+    }
+    100%{
+        margin-top: 0;
+        visibility: visible;
+    }
+}
+.left-card{
+    float: left;
+    margin-left: 10%;
+    margin-top: 4.5%;
+    width: 30%;
+    height: 80%;
+    background: rgba(41, 225, 94, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(41, 225, 94, 0.07);
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+    user-select: none;
+}
+.left-card:hover{
+    transition: 1s;
+    scale: 1.05;
+    transform: rotate(7deg);
+}
+.left_content{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.right-card{
+    float: right;
+    margin-right: 10%;
+    margin-top: 4.5%;
+    width: 30%;
+    height: 80%;
+    background: rgba(41, 225, 94, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(41, 225, 94, 0.07);
+}
