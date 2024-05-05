@@ -8,14 +8,10 @@ body {
 }
 /* Add this at the end of your CSS file */
 @media screen and (max-width: 768px) {
-    .left-card, .right-card {
-        width: 80%; /* Adjust width for smaller screens */
-        margin: 4.5% auto; /* Center the cards */
-        float: none; /* Remove floating */
-    }
-
-    .left-card, .right-card:hover {
-        transform: none; /* Remove transform on hover */
+    .right-card, .left-card{
+        height: 30%;
+        width: 10%;
+        font-size: 5px;
     }
 }
 @keyframes firstt {
