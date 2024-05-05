@@ -1,12 +1,10 @@
-*{
-    overflow: hidden;
-}
 body {
     margin: 0;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     animation: firstt 5s;
     background: #222; /* Nowy kolor tła */
     color: #ddd; /* Nowy kolor tekstu */
+    text-transform: uppercase;
 }
 @keyframes firstt {
     0%{
