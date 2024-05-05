@@ -142,13 +142,21 @@ body {
     background-color: #fff;
 }
 @media screen and (max-width: 768px) {
-    body{
-        overflow: visible;
+    .top {
+        height: 80px;
+        background-color: rgba(26, 26, 26, 0.9);
+        display: grid;
+        place-items: center;
+        font-size: 35px;
+    }
+    .content {
+        height: calc(100vh - 80px);
     }
     .left-card, .right-card {
         width: 70%;
         height: 45%;
         margin: 4.5% 15% auto 15%;
+        scale: 0.9;
     }
     .card_content{
         font-size: 35px;
