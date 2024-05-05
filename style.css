@@ -7,7 +7,7 @@ body {
     overflow: hidden;
 }
 /* Add this at the end of your CSS file */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .right-card, .left-card{
         height: 30%;
         width: 10%;
