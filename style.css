@@ -4,7 +4,7 @@ body {
     animation: firstt 5s;
     background: #222; /* Nowy kolor tła */
     color: #ddd; /* Nowy kolor tekstu */
-    text-transform: uppercase;
+    overflow: hidden;
 }
 @keyframes firstt {
     0%{
