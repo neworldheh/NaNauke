@@ -4,9 +4,10 @@ function openPageO() {
         title_text.innerText = "Explore yourself";
         topElement.style.transition = 'height 1s';
         topElement.style.height = '100vh';
+          let content= document.querySelector(".content");
+    content.remove()
         setTimeout(function() {
             window.location.href = "explore.html";
         }, 3000);
-    let content= document.querySelector(".content");
-    content.remove()
+  
 }
