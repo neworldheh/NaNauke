@@ -7,4 +7,6 @@ function openPageO() {
         setTimeout(function() {
             window.location.href = "explore.html";
         }, 3000);
+    let content= document.querySelector(".content");
+    content.remove()
 }
