@@ -11,6 +11,9 @@ body {
     background-size: cover;
     scroll-behavior: smooth;
 }
+a{
+    font-size: 15px;
+}
 @keyframes firstt {
     0%{
         background: #000;
