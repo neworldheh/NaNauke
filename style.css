@@ -149,6 +149,7 @@ body {
         display: grid;
         place-items: center;
         font-size: 35px;
+        font-weight: bold;
     }
     .content {
         height: calc(100vh - 80px);
