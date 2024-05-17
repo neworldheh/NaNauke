@@ -6,6 +6,7 @@ body {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     animation: firstt 5s;
     color: #ddd;
+    background-color: black;
     overflow: hidden;
     background-image: url(pexels-emily-ranquist-493228-1205651.jpg);
     background-size: cover;
