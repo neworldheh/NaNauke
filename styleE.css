@@ -26,6 +26,7 @@ body {
     height:20%;
     background-color: #000;
     margin-bottom: 10%;
+    border-radius: 90px;
 }
 .cburger{
     width: 100%;
@@ -33,13 +34,12 @@ body {
     background-color: #000;
     margin-top: 10%;
     margin-bottom: 10%;
+    border-radius: 90px;
 }
 .bburger{
     width: 100%;
     height:20%;
     background-color: #000;
     margin-top: 10%;
-}
-.tburger .cburger .bburger{
     border-radius: 90px;
 }
