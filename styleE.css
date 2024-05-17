@@ -40,4 +40,6 @@ body {
     background-color: #000;
     margin-top: 10%;
 }
-.margin:hover
+.tburger .cburger .bburger{
+    border-radius: 90px;
+}
