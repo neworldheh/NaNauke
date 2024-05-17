@@ -1,3 +1,6 @@
+*{
+    user-select: none;
+}
 body {
     margin: 0;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -24,14 +27,14 @@ body {
 .tburger{
     width: 100%;
     height:20%;
-    background-color: #000;
+    background-color: #fff;
     margin-bottom: 10%;
     border-radius: 90px;
 }
 .cburger{
     width: 100%;
     height:20%;
-    background-color: #000;
+    background-color: #fff;
     margin-top: 10%;
     margin-bottom: 10%;
     border-radius: 90px;
@@ -39,7 +42,13 @@ body {
 .bburger{
     width: 100%;
     height:20%;
-    background-color: #000;
+    background-color: #fff;
     margin-top: 10%;
     border-radius: 90px;
+}
+.menu:hover .cburger{
+    display: none;
+}
+.menu:hover .tburger{
+    z
 }
