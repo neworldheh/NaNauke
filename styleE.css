@@ -4,6 +4,7 @@ body {
     color: #ddd;
     overflow: hidden;
     scroll-behavior: smooth;
+    background-color: #fff; 
 }
 .top {
     width: 100%;
