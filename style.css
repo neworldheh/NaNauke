@@ -31,7 +31,6 @@ body {
     place-items: center;
     animation: first 5s;
     font-size: 40px;
-    position: sticky;
 }
 @keyframes first {
     0%{
