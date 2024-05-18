@@ -50,5 +50,8 @@ body {
     display: none;
 }
 .menu:hover .tburger{
-    z
+    z-index: 10;
+}
+.menu:hover .bburger{
+    z-index: 9;
 }
