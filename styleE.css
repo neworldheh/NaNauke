@@ -52,8 +52,10 @@ body {
 .menu:hover .tburger{
     z-index: 10;
     transform: rotate(45deg);
+    transition: 3s;
 }
 .menu:hover .bburger{
     z-index: 9;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
+    transition: 3s;
 }
