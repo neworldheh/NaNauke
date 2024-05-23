@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     scroll-behavior: smooth;
     background-color: #fff; 
+    index: 1;
 }
 .top {
     width: 100%;
