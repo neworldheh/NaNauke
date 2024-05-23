@@ -161,6 +161,9 @@ body {
         margin: 4.5% 15% auto 15%;
         scale: 0.9;
     }
+    .left-card:hover, .right-card:hover{
+        backdrop-filter: blur(20px);
+    }
     .card_content{
         font-size: 35px;
     }
