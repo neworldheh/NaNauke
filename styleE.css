@@ -13,7 +13,9 @@ body {
 .showMenu{
     z-index: 2;
     background-color: #000;
-    width: (100vh /);
+    width: calc(100vh/2);
+    height: 100vh;
+    opacity: 0.8;
 }
 .top {
     width: 100%;
