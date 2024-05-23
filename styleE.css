@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     scroll-behavior: smooth;
     background-color: #fff; 
-    index: 1;
+    z-index: 1;
 }
 .showMenu{
     z-index: 2;
