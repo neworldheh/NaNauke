@@ -11,3 +11,6 @@ function openPageO() {
         }, 3000);
   
 }
+function showMenu(){
+
+}
