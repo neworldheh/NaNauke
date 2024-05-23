@@ -21,6 +21,7 @@ body {
     float: left;
 }
 .menu{
+    margin-top: 30px;
     width: 50px;
     height: 40px;
     float: right;
