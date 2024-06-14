@@ -12,5 +12,9 @@ function openPageO() {
   
 }
 function showMenu(){
-
+    const art= window.AddElement
+    let menu = documentz.querySelector('.menu');
+    if (menu.Class.hide){
+        show.menu
+    }
 }
